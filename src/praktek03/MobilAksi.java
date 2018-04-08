@@ -18,7 +18,14 @@ public class MobilAksi {
                System.out.print("Harganya \t: ");
                       System.out.println(l.getHarga());
                     
-                        
+                        MobilListrik Ml = new MobilListrik();
+                        Ml.setMerk("Tesla");
+                        Ml.setWarna("Biru");
+                        Ml.setHarga(700000);
+                        Ml.setJenisMobil("Listrik");
+                        Ml.cetakinfo();
+                        System.out.println("Jenis :"+Ml.getJenisMobil());
+                        Ml.throttle();
               ;
   }  
 }
