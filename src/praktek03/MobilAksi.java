@@ -7,6 +7,6 @@ public class MobilAksi {
       l.warna = "Merah";
       l.harga = 60000;
       
-      l.cetakInfo();
+      l.cetakinfo();
   }  
 }
