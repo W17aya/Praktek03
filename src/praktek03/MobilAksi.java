@@ -10,5 +10,15 @@ public class MobilAksi {
       
       
       l.cetakinfo();
+      
+      System.out.print("merknya \t: ");
+      System.out.println(l.getMerk());
+       System.out.print("Warnanya \t: ");
+              System.out.println(l.getWarna());
+               System.out.print("Harganya \t: ");
+                      System.out.println(l.getHarga());
+                    
+                        
+              ;
   }  
 }
