@@ -26,6 +26,15 @@ public class MobilAksi {
                         Ml.cetakinfo();
                         System.out.println("Jenis   : "+Ml.getJenisMobil());
                         Ml.throttle();
-              ;
+              
+                        
+                        MobilSport S1 = new MobilSport();
+                        S1.setMerk("Buggati Veyron");
+                        S1.setWarna("Kuning Emas");
+                        S1.setHarga(1000000);
+                        S1.setJenisMobil("Sport");
+                        S1.cetakinfo();
+                        System.out.println("Jenis   : "+S1.getJenisMobil());
+                        S1.throttle();
   }  
 }
