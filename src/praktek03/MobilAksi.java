@@ -36,5 +36,14 @@ public class MobilAksi {
                         S1.cetakinfo();
                         System.out.println("Jenis   : "+S1.getJenisMobil());
                         S1.throttle();
+                        
+                        MobilAPV A1 = new MobilAPV();
+                        A1.setMerk("Karimun Wagon");
+                        A1.setWarna("Pink");
+                        A1.setHarga(300000);
+                        A1.setJenisMobil("Mobil All Purpose Vehicle");
+                        A1.cetakinfo();
+                        System.out.println("Jenis   : "+A1.getJenisMobil());
+                        A1.throttle();
   }  
 }

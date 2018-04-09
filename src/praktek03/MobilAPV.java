@@ -2,12 +2,11 @@ package praktek03;
 
 public class MobilAPV extends Mobil {
         private String JenisMobil;
-        private String BahanBakar;
-        private String  Harga;
+        
    
     
 void throttle(){
-System.out.println("Brmrmrmrmrmr");
+System.out.println("Beremberemberem");
 }
 
     public String getJenisMobil() {
