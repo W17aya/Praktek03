@@ -24,7 +24,7 @@ public class MobilAksi {
                         Ml.setHarga(700000);
                         Ml.setJenisMobil("Listrik");
                         Ml.cetakinfo();
-                        System.out.println("Jenis :"+Ml.getJenisMobil());
+                        System.out.println("Jenis   : "+Ml.getJenisMobil());
                         Ml.throttle();
               ;
   }  
